@@ -18,7 +18,7 @@ AppModule = __decorate([
     (0, common_1.Module)({
         imports: [
             products_module_1.ProductsModule,
-            mongoose_1.MongooseModule.forRoot('mongodb+srv://zniguef:EfoOGHAHnOzUtmYO@cluster0.2wzwj.mongodb.net/nestjs-demo?retryWrites=true&w=majority'),
+            mongoose_1.MongooseModule.forRoot('MongoDB URI'),
         ],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService],
